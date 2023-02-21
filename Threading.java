@@ -25,9 +25,10 @@ class Multithreading extends Thread {
 public class Threading {
 	public static void main(String[] args) {
 		System.out.println("Time to start: " + new Date());
-		int n = 10;
+		int n = 15;
 		for (int i = 1; i < n; i++) {
 			Threading T = new Threading();
+			Thread.sleep(4000);
 			T.toString();
 		}
 
