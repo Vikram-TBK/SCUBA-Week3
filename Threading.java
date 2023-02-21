@@ -17,6 +17,7 @@ class Multithreading extends Thread {
 			Thread.sleep(5000);
 		}
 		System.out.println("End time  " + new Date());
+		Thread.sleep(8000);
 
 	}
 
