@@ -8,7 +8,7 @@ class Multithreading extends Thread {
 		try {
 			System.out.println("Thread " + Thread.currentThread().getId() + "Is Running");
 			Thread.currentThread();
-			Thread.sleep(5000);
+			Thread.sleep(7000);
 
 			System.out.println("Thread " + Thread.currentThread().getId() + "Is Completed  ");
 
@@ -23,9 +23,9 @@ class Multithreading extends Thread {
 
 public class Threading {
 	public static void main(String[] args) {
-		System.out.println("Start time: " + new Date());
-		int n = 7;
-		for (int i = 0; i < n; i++) {
+		System.out.println("Time to start: " + new Date());
+		int n = 10;
+		for (int i = 1; i < n; i++) {
 			Threading T = new Threading();
 			T.toString();
 		}
