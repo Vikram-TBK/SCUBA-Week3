@@ -14,10 +14,8 @@ class Multithreading extends Thread {
 
 		} catch (Exception e) {
 			System.out.println("Exception");
-			Thread.sleep(5000);
 		}
 		System.out.println("End time  " + new Date());
-		Thread.sleep(8000);
 
 	}
 
@@ -26,10 +24,9 @@ class Multithreading extends Thread {
 public class Threading {
 	public static void main(String[] args) {
 		System.out.println("Time to start: " + new Date());
-		int n = 15;
+		int n = 20;
 		for (int i = 1; i < n; i++) {
 			Threading T = new Threading();
-			Thread.sleep(4000);
 			T.toString();
 		}
 
