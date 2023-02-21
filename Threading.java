@@ -14,6 +14,7 @@ class Multithreading extends Thread {
 
 		} catch (Exception e) {
 			System.out.println("Exception");
+			Thread.sleep(5000);
 		}
 		System.out.println("End time  " + new Date());
 
